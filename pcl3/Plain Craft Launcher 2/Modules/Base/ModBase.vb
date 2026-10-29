@@ -11,7 +11,7 @@ Public Module ModBase
     '  · 内测版本名（VersionInternalName）：每次改代码打包自动 +1（由 构建.bat 处理）
     Public Const ProductName As String = "Plain Craft Launcher 3"
     Public Const VersionFormalName As String = "2.0"
-    Public Const VersionInternalName As String = "64"
+    Public Const VersionInternalName As String = "65"
     Public Const VersionBaseName As String = "3." & VersionFormalName & "." & VersionInternalName '显示用版本名
     Public Const CommitHash As String = "" 'Commit Hash，由 GitHub Workflow 自动替换
 #If RELEASE Then
